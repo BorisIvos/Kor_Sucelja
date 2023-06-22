@@ -85,14 +85,14 @@ header .icons #menu{
 
 }
 .home .home-slider .slide1{
-    background:url(boris3.jpg)
+    background:url(burger2.jpg)
 }
 
 .home .home-slider .slide2{
-    background:url(boris3.jpg)
+    background:url(sj.jpg)
 }
 .home .home-slider .slide3{
-    background:url(boris3.jpg)
+    background:url(riza.jpg)
 }
 .home .home-slider .slide1
 .home .home-slider .slide2
@@ -167,6 +167,108 @@ header .icons #menu{
    border-radius: 0!important;
 }
 
+/*Welcome style start */
+section
+{
+    padding: 8rem 9%;
+}
+
+.heading{
+    text-align: center;
+    color: var(--black);
+    font-size: 4.5rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+
+}
+.sub-heading
+{
+    text-align: center;
+    color: var(--light-color);
+    font-size: 2.5rem;
+    padding: .5rem 2rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    background: var(--black);
+    display: inline-block;
+
+}
+
+.welcome .box-container
+{
+    display: flex;
+    gap: 1.5rem;
+    
+}
+
+.welcome .box-container .box{
+    width: 33%;
+    background: var(--black);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding-bottom: 1%;
+    
+}
+.welcome .box-container .box .image {
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.welcome .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.welcome .box-container .box .image:hover img
+{
+    transform: scale(1.1);
+}
+
+.welcome .box-container .box .content
+{
+    padding: 2rem;
+    padding-top: 2rem;
+}
+.welcome .box-container .box .content h3{
+    color: var(--light-color);
+    font-size: 2.2rem;
+    font-weight: 400;
+
+}
+
+.welcome .box-container .box .content p{
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: .5rem 0;
+    line-height: 1.5;
+
+}
+
+/*Welcome style end*/
+
+/*Menu still*/
+.our-menu{
+    background: url(boris2.jpg) left top no-repeat,url(boris3.jpg);
+
+}
+.our-menu .menu-container{
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50rem,2fr));
+
+}
+
+
+
+/*Menu still kraj*/
+
+
 
 
 
@@ -223,6 +325,32 @@ header .icons #menu{
         font-size: 2rem;
         background: var(--black);
     }
+
+    .home .home-slider .slide
+    {
+       justify-content: center;
+       height: 80vh;
+
+    
+    }
+    .home .home-slider .slide content{
+        padding: 0;
+    }
+
+    .home .home-slider .slide content h1{
+        font-size: 7rem;
+
+    }
+
+    .welcome .box-container{
+        flex-wrap: wrap;
+
+    }
+    .welcome .box-container .box{
+        width: 100%;
+    }
+
+    
    
 
 }
